@@ -2,11 +2,7 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-"""
-    Встроенная фикстура request может получать данные о текущем запущенном тесте, что позволяет, например,
-    сохранять дополнительные данные в отчёт, а также делать многие другие интересные вещи.
-    https://docs.pytest.org/en/latest/example/simple.html?highlight=addoption
-"""
+
 
 
 def pytest_addoption(parser):
